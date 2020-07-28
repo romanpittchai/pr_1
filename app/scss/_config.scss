@@ -1,0 +1,82 @@
+// USER VARIABLES SECTION
+
+$accent: rgb(161, 138, 243); // Accent Color
+$fontsize: 14px; // Body Font Size
+$textcolor: #ffffff; // Text Color
+$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
+$OpenSans: OpenSans, sans-serif; // Roboto Font Family
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 20px;
+$gutter: $grid-gutter-width;
+
+// IMPORT SECTION
+
+@import "node_modules/bootstrap/scss/bootstrap-reboot.scss"; // Bootstrap Reboot collection
+@import "node_modules/bootstrap/scss/mixins/_breakpoints.scss"; // Bootstrap Breakpoints mixin
+// @import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
+// @import 'node_modules/bootstrap/scss/utilities/_sizing.scss'; // Optional Bootstrap Utilites
+
+// FONTS LOAD SECTION
+
+@mixin font($fname, $fstyle, $fweight, $furl) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fstyle;
+		font-weight: $fweight;
+		// font-display: swap; // Uncomment to initially display system fonts
+		src: local($fname), url($furl) format("woff2");
+	}
+}
+
+@include font("OpenSans", normal, 400, "../fonts/opensans-regular-webfont.woff2");
+@include font("OpenSansCondensed", bold, 700, "../fonts/opensanscondensed-bold-webfont.woff2");
+@include font("OpenSansCondensed", normal, 300, "../fonts/opensanscondensed-light-webfont.woff2");
+
+// GENERAL DOCUMENT STYLES
+
+::placeholder {
+	color: #666;
+}
+
+::selection {
+	background-color: $accent;
+	color: #fff;
+}
+
+input,
+textarea {
+	outline: none;
+	&:focus:required:invalid {
+		border-color: red;
+	}
+	&:required:valid {
+		border-color: green;
+	}
+}
+.wrapper {
+	width: 1920px;
+	background: #333333;
+}
+.container {
+	width: 1080px;
+	padding: 0 15px;
+}
+.header-menu {
+}
+.header-menu__items {
+	list-style: none;
+}
+.header-menu__item {
+}
+.header-menu__link {
+}
+body {
+	font-family: $OpenSans;
+	font-size: $fontsize;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	overflow-x: hidden;
+	color: $textcolor;
+}
