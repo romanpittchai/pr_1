@@ -4,7 +4,8 @@ $accent: rgb(161, 138, 243); // Accent Color
 $fontsize: 14px; // Body Font Size
 $textcolor: #ffffff; // Text Color
 $system: -apple-system, BlinkMacSystemFont, Arial, sans-serif; // System Font Family
-$OpenSans: OpenSans, sans-serif; // Roboto Font Family
+$OpenSans: OpenSans, sans-serif;
+$OpenSansCondensed: OpenSansCondensed;
 
 // Bootstrap compatible gutter variable => $gutter
 $grid-gutter-width: 20px;
@@ -17,66 +18,91 @@ $gutter: $grid-gutter-width;
 // @import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
 // @import 'node_modules/bootstrap/scss/utilities/_sizing.scss'; // Optional Bootstrap Utilites
 
-// FONTS LOAD SECTION
-
 @mixin font($fname, $fstyle, $fweight, $furl) {
-	@font-face {
-		font-family: $fname;
-		font-style: $fstyle;
-		font-weight: $fweight;
-		// font-display: swap; // Uncomment to initially display system fonts
-		src: local($fname), url($furl) format("woff2");
-	}
+  @font-face {
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    // font-display: swap; // Uncomment to initially display system fonts
+    src: local($fname), url($furl) format("woff2");
+  }
 }
 
-@include font("OpenSans", normal, 400, "../fonts/opensans-regular-webfont.woff2");
-@include font("OpenSansCondensed", bold, 700, "../fonts/opensanscondensed-bold-webfont.woff2");
-@include font("OpenSansCondensed", normal, 300, "../fonts/opensanscondensed-light-webfont.woff2");
+@include font(
+  "OpenSans",
+  normal,
+  400,
+  "../fonts/open-sans-v17-latin_cyrillic-regular.woff2"
+);
+@include font(
+  "OpenSansCondensed",
+  bold,
+  700,
+  "../fonts/open-sans-condensed-v14-latin_cyrillic-700.woff2"
+);
+@include font(
+  "OpenSansCondensed",
+  normal,
+  300,
+  "../fonts/open-sans-condensed-v14-latin_cyrillic-300.woff2"
+);
 
 // GENERAL DOCUMENT STYLES
+a {
+  text-decoration: none;
+  color: $textcolor;
+
+  &:hover {
+    text-decoration: none;
+    color: rgb(168, 167, 167);
+  }
+}
 
 ::placeholder {
-	color: #666;
+  color: #666;
 }
 
 ::selection {
-	background-color: $accent;
-	color: #fff;
+  background-color: $accent;
+  color: #fff;
 }
 
 input,
 textarea {
-	outline: none;
-	&:focus:required:invalid {
-		border-color: red;
-	}
-	&:required:valid {
-		border-color: green;
-	}
+  outline: none;
+
+  &:focus:required:invalid {
+    border-color: red;
+  }
+
+  &:required:valid {
+    border-color: green;
+  }
 }
+
 .wrapper {
-	width: 1920px;
-	background: #333333;
+  margin: 0 auto;
+  width: 1920px;
+  background: #333333;
+  position: relative;
+  overflow: hidden;
 }
+
 .container {
-	width: 1080px;
-	padding: 0 15px;
+  width: 1110px;
+  padding: 0 15px;
+  position: relative;
+  margin: 0 auto;
 }
-.header-menu {
-}
-.header-menu__items {
-	list-style: none;
-}
-.header-menu__item {
-}
-.header-menu__link {
-}
+
 body {
-	font-family: $OpenSans;
-	font-size: $fontsize;
-	min-width: 320px;
-	position: relative;
-	line-height: 1.65;
-	overflow-x: hidden;
-	color: $textcolor;
+  font-family: $OpenSansCondensed;
+  font-size: $fontsize;
+  font-weight: normal;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  overflow-x: hidden;
+  color: $textcolor;
+  background-color: #333333;
 }

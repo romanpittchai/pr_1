@@ -1,0 +1,166 @@
+/* Слайдер */
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    // min-width: 0;
+    position: relative;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    z-index: 5;
+    top: 100%;
+}
+
+.slick-prev {
+    display: inline-block;
+    position: relative;
+    font-size: 0;
+    left: 0;
+    background: url(/images/dest/arrow--left--passive.svg);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 45px;
+
+    &:hover {
+        background: url(/images/dest/arrow--left--active.svg);
+
+        background-repeat: no-repeat;
+    }
+
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+
+.slick-prev::after {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: block;
+    content: "ПРЕД";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100px;
+    color: #c4c4c4;
+    padding-left: 65px;
+}
+
+.slick-prev:hover::after {
+    color: white;
+}
+
+.slick-next {
+    font-size: 0;
+    right: 0px;
+    background: url(/images/dest/arrow--right--passive.svg);
+
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 45px;
+
+    &:hover {
+        background: url(/images/dest/arrow--right--active.svg);
+        background-repeat: no-repeat;
+    }
+
+    &:focus {
+        border: none;
+        outline: none;
+    }
+}
+
+.slick-next::before {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: block;
+    content: "СЛЕД";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100px;
+    color: #c4c4c4;
+    padding-right: 120px;
+}
+
+.slick-next:hover::before {
+    color: white;
+}
+
+.slider-item {
+    position: relative;
+    left: 3%;
+}
+
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+}
+/* Слайд */
+.slick-slide {
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+}
+/* Стрелка влево */
+// .slick-arrow.slick-prev {
+//     left: 0;
+// }
+// /* Стрелка вправо */
+// .slick-arrow.slick-next {
+//     right: 0;
+// }
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
+}
