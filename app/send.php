@@ -14,7 +14,7 @@
         <div class="container__under">
         <div class="screen-messege">
           <?php
-          $emailbase = "peteromanov1917@gmail.com";
+          $emailbase = "your-email@gmail.com";
           $fio = $_POST['fio'];
           $email = $_POST['email'];
           $fio = htmlspecialchars($fio);
@@ -29,13 +29,11 @@
             <p class="messege__under-text">
              <?php echo "<script> 
                         document.write('Сообщение успешно отправлено'); 
-                       
                         </script>"; } 
                        
              else { ?>
             </p>
           </div>
-          
           <div class="messege__under">
             <p class="messege__under-text">
             <?php echo 'При отправке сообщения возникли ошибки' ;}  ?>

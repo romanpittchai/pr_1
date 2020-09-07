@@ -55,6 +55,9 @@
                   <h1 class="style-h1">
                     Жилой&nbsp;комплекс в&nbsp;историческом&nbsp;центре
                   </h1>
+                  <h1 class="style-h1-min-apdate">
+                    Жилой&nbsp;комплекс в&nbsp;историческом<br>центре
+                  </h1>
                 </div>
                 <div class="residential-complex__search">
                   <div class="gcse-search"></div>
@@ -104,6 +107,46 @@
                 <p class="screen-menu__item-text">6&nbsp;км<br>
                   велодорожек</p>
               </div>
+            </div>
+            <div class="screen-menu__items-box-slider">
+              <div class="slider">
+                      <div class="slider-item">
+                        <img
+                          src="/images/dest/screen-menu__item-img-1.svg"
+                          alt=""
+                          class="slider-item-img"
+                        />
+                        <p class="screen-menu__item-text">Рядом&nbsp;исторические<br>
+                  парки&nbsp;и&nbsp;скверы</p>
+                      </div>
+                      <div class="slider-item">
+                        <img
+                          src="/images/dest/screen-menu__item-img-2.svg"
+                          alt=""
+                          class="slider-item-img"
+                        />
+                        <p class="screen-menu__item-text">Полностью<br>
+                  обустроенный</p>
+                      </div>
+                      <div class="slider-item">
+                        <img
+                          src="/images/dest/screen-menu__item-img-3.svg"
+                          alt=""
+                          class="slider-item-img"
+                        />
+                        <p class="screen-menu__item-text">10&nbsp;фонтанов<br>
+                  на&nbsp;территории</p>
+                      </div>
+                      <div class="slider-item">
+                        <img
+                          src="/images/dest/screen-menu__item-img-4.svg"
+                          alt=""
+                          class="slider-item-img"
+                        />
+                        <p class="screen-menu__item-text">6&nbsp;км<br>
+                  велодорожек</p>
+                      </div>
+                    </div>
             </div>
           </div>
         </div>
@@ -157,6 +200,42 @@
                   </ul>
                 </div>
               </div>
+                  <div class="screen-our-apartments__img-slider">
+                    <div class="slider">
+                      <div class="slider-item">
+                      <a href="/images/dest/apartments-img-3rd-floor.webp" class="screen-our-apartments__img-item-link">
+                        <figure class="screen-our-apartments__img-item-link-box">
+                          <img class="apartments-img" src="/images/dest/apartments-img-3rd-floor.webp" alt="Фото_квартиры">
+                          <p class="apartments-text">Лофт — 3 этажа</p>
+                        </figure>
+                      </a>
+                      </div>
+                      <div class="slider-item">
+                      <a href="/images/dest/apartments-img-2nd-floor.webp" class="screen-our-apartments__img-item-link">
+                        <figure class="screen-our-apartments__img-item-link-box figure-link-box">
+                          <img class="apartments-img" src="/images/dest/apartments-img-2nd-floor.webp" alt="Фото_квартиры">
+                          <p class="apartments-text">Лофт — 2 этажа</p>
+                        </figure>
+                      </a>
+                      </div>
+                      <div class="slider-item">
+                      <a href="/images/dest/apartments-img-3rd-floor.webp" class="screen-our-apartments__img-item-link">
+                        <figure class="screen-our-apartments__img-item-link-box">
+                          <img class="apartments-img" src="/images/dest/apartments-img-3rd-floor.webp" alt="Фото_квартиры">
+                          <p class="apartments-text">Лофт — 3 этажа</p>
+                        </figure>
+                      </a>
+                      </div>
+                      <div class="slider-item">
+                      <a href="/images/dest/apartments-img-2nd-floor.webp" class="screen-our-apartments__img-item-link">
+                        <figure class="screen-our-apartments__img-item-link-box figure-link-box">
+                          <img class="apartments-img" src="/images/dest/apartments-img-2nd-floor.webp" alt="Фото_квартиры">
+                          <p class="apartments-text">Лофт — 2 этажа</p>
+                        </figure>
+                      </a>
+                      </div>
+                    </div>
+                  </div>
             </div>
           </div>
         </div>
@@ -338,8 +417,8 @@
     <script src="js/app.js"></script>
     <script src="js/appartment-slider.js"></script>
     <script src="js/libs/slick.min.js"></script>
+    <script src="js/script-slider.js"></script>
     <script async src="https://cse.google.com/cse.js?cx=464d8b8a49d8f5222"></script>
     <script src="js/libs/burger.js"></script>
-    <!-- <script src="js/libs/script-slider.js"></script> -->
   </body>
 </html>

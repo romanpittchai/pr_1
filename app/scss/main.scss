@@ -1,5 +1,6 @@
 @import "config";
 @import "libs/magnific-popup";
+@import "libs/slider-style";
 
 .screen-residential-complex {
   position: relative;
@@ -1106,10 +1107,15 @@ table.gsc-search-box {
   border-bottom-left-radius: 0 !important;
 }
 
-// #player {
-//   width: 720px !important;
-//   height: 650px !important;
-//   padding: 15px 0;
-// }
+.screen-our-apartments__img-slider {
+  display: none;
+}
+
+.screen-menu__items-box-slider {
+  display: none;
+}
+.style-h1-min-apdate {
+  display: none;
+}
 
 @import "libs/media";

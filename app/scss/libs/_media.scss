@@ -2,20 +2,24 @@
   .container__under {
     padding: 0 15px;
   }
+
   .screen-our-apartments__img-item-link-box {
     max-width: 98%;
   }
 }
+
 @media (max-width: 1083px) {
   .screen-form-under__input-forms-box {
     column-gap: 25px;
   }
 }
+
 @media (max-width: 1070px) {
   .screen-form-under__input-forms-box {
     column-gap: 15px;
   }
 }
+
 @media (max-width: 1038px) {
   .screen-form-under__input-form-sub {
     padding: 16px 54px;
@@ -26,23 +30,29 @@
   .residential-complex__adress-text-box {
     flex-basis: 51%;
   }
+
   .residential-complex__tel-text-box {
     flex-basis: 37%;
   }
+
   .screen-form-under__input-form-sub {
     padding: 17px 54px;
   }
+
   img.mfp-img {
     min-width: 135%;
   }
+
   .screen-form__text-title {
     flex-basis: 90%;
   }
+
   .screen-form__input-form-sub {
     padding: 12px 45px;
     justify-self: center;
   }
 }
+
 @media (max-width: 991px) {
   div.thumbnail_container {
     width: 600px;
@@ -55,33 +65,50 @@
     padding: 12px 35px;
     justify-self: center;
   }
+
   .residential-complex__adress-text-box {
     flex-basis: 55%;
   }
+
   .residential-complex__tel-text-box {
     flex-basis: 40%;
   }
 }
+
 @media (max-width: 900px) {
   .screen-form__input-form-sub {
     padding: 12px 30px;
   }
+  .residential-complex__tel-adress {
+    min-width: 60%;
+  }
 }
+
 @media (max-width: 850px) {
   .header-menu {
     flex-basis: 60%;
   }
+
   .residential-complex__tel-adress {
     min-width: 61%;
   }
+
   .screen-our-apartments__img-item-link-box {
     max-width: 96%;
   }
+
   .screen-form__input-form-sub {
     padding: 12px 25px;
     justify-self: center;
   }
 }
+
+@media (max-width: 820px) {
+  .residential-complex__tel-adress {
+    min-width: 67%;
+  }
+}
+
 @media (max-width: 806px) {
   .screen-form-under__input-form-sub {
     padding: 17px 50px;
@@ -92,19 +119,24 @@
   .residential-complex__tel-adress {
     min-width: 65%;
   }
+
   .screen-form__text-input {
     flex-direction: column;
     align-items: center;
   }
+
   .title-h2 {
     margin-bottom: 40px;
   }
+
   .screen-form__text-desc {
     margin-bottom: 30px;
   }
+
   .screen-form__input {
     max-width: 75%;
   }
+
   .screen-form-under__input-form-sub {
     padding: 17px 45px;
   }
@@ -114,6 +146,7 @@
   .screen-form-under__input-forms-box {
     column-gap: 10px;
   }
+
   .screen-form-under__input-form-sub {
     padding: 17px 30px;
   }
@@ -123,12 +156,16 @@
   .screen-form-under__input-forms-box {
     column-gap: 5px;
   }
+  .residential-complex__tel-adress {
+    min-width: 70%;
+  }
 }
 
 @media (max-width: 767px) {
   body.lock {
     overflow: hidden;
   }
+
   .header-menu {
     flex-basis: 60%;
     justify-content: center;
@@ -162,6 +199,7 @@
     flex-basis: 50%;
     max-width: 100%;
   }
+
   .header-burger {
     display: block;
     position: relative;
@@ -190,6 +228,7 @@
     transition: all 0.4s ease 0s;
     z-index: 6;
   }
+
   .header-burger::after {
     content: "";
     background-color: white;
@@ -200,6 +239,7 @@
     transition: all 0.4s ease 0s;
     z-index: 6;
   }
+
   .header-burger::before {
     top: 0;
   }
@@ -215,6 +255,7 @@
     transition: all 0.4s ease 0s;
     z-index: 6;
   }
+
   .header-burger.active::after {
     transform: rotate(-45deg);
     width: 70%;
@@ -222,6 +263,7 @@
     transition: all 0.4s ease 0s;
     z-index: 6;
   }
+
   .header-burger.active span {
     transform: scale(0);
     z-index: 6;
@@ -234,9 +276,11 @@
   img.mfp-img {
     min-width: 115%;
   }
+
   .mfp-wrap {
     right: 0;
   }
+
   .mfp-figure figure {
     display: flex;
     justify-content: center;
@@ -245,6 +289,7 @@
   .screen-form-under__input {
     justify-content: center;
   }
+
   .screen-form-under__input-forms-box {
     grid-template: repeat(2, 0.7fr) / repeat(2, 0.7fr);
   }
@@ -253,19 +298,24 @@
     grid-column: 1/2;
     grid-row: 2/3;
   }
+
   .screen-form-under__text-title {
     align-items: center;
   }
+
   .screen-map__title {
     display: flex;
     justify-content: center;
   }
+
   .screen-form__text {
     justify-content: center;
   }
+
   .screen-form__text-title {
     align-items: center;
   }
+
   .screen-our-apartments__title {
     justify-content: center;
   }
@@ -273,15 +323,19 @@
   .screen-form-under__text-input {
     align-items: center;
   }
+
   .screen-form-under__input {
     max-width: 75%;
   }
+
   .screen-form-under__input-form-sub {
     justify-self: center;
   }
+
   .footer__housevop-box {
     display: none;
   }
+
   .screen-form-under__input-form-text {
     text-align: center;
   }
@@ -289,33 +343,46 @@
   .screen-form__text-desc {
     text-align: center;
   }
+
   div.thumbnail_container {
     width: 480px;
     height: 410px;
   }
+
   .screen-video {
     height: 530px;
   }
+
   .screen-form-under__input-forms-box {
     column-gap: 20px;
   }
+
   .screen-our-apartments {
     height: 610px;
   }
+
   .screen-menu {
     height: 320px;
   }
+
   .screen-residential-complex {
     height: 640px;
   }
+
   .header {
     margin-bottom: 60px;
   }
+
   .residential-complex__main-title {
     margin-bottom: 70px;
   }
+
   .residential-complex__search {
     margin-bottom: 150px;
+  }
+
+  img.thumbnail {
+    min-width: 100%;
   }
 }
 
@@ -323,51 +390,69 @@
   .residential-complex__main-title {
     max-width: 100%;
   }
+
   .residential-complex__tel-adress {
     min-width: 75%;
   }
 }
+
+@media (max-width: 670px) {
+  .residential-complex__tel-adress {
+    min-width: 80%;
+  }
+}
+
 @media (max-width: 670px) {
   .screen-menu {
     height: 520px;
   }
+
   .container__under {
     display: flex;
     justify-content: center;
   }
+
   .screen-menu__items-box {
     justify-content: space-between;
     flex-wrap: wrap;
     flex-basis: 70%;
   }
+
   .screen-menu__item-3 {
     flex-basis: 45%;
   }
+
   .screen-menu__item-4 {
     flex-basis: 30%;
   }
+
   .footer {
     height: 400px;
   }
+
   .footer-box {
     flex-wrap: wrap;
     max-width: 75%;
     justify-content: space-between;
   }
+
   .footer-list-box-3 {
     max-width: 640px;
     flex-basis: 100%;
     align-items: center;
   }
+
   .footer-lists-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+
   .footer-list-box {
     margin-bottom: 30px;
   }
+
   .footer-lists {
     align-items: center;
   }
@@ -378,42 +463,53 @@
     min-width: 80%;
   }
 }
+
 @media (max-width: 620px) {
   .residential-complex__tel-adress {
     min-width: 85%;
   }
 }
+
 @media (max-width: 600px) {
   .style-h1 {
     font-size: 40px;
   }
+
   .residential-complex__tel-adress {
     min-width: 90%;
   }
+
   img.mfp-img {
     min-width: 100%;
   }
+
   .style-h2 {
     font-size: 34px;
   }
+
   .screen-our-apartments__title {
     margin-bottom: 70px;
   }
+
   .screen-our-apartments {
     height: 480px;
   }
+
   div.thumbnail_container {
     width: 420px;
     height: 360px;
   }
+
   .screen-video {
     justify-content: center;
   }
 }
+
 @media (max-width: 560px) {
   .residential-complex__tel-adress {
     min-width: 95%;
   }
+
   .screen-menu__item-img-1 {
     max-width: 93%;
   }
@@ -429,50 +525,65 @@
   .screen-form__input-form-sub {
     padding: 12px 12px;
   }
+
   .apartments-text {
     font-size: 17px;
   }
+
   .style-h2 {
     font-size: 30px;
   }
+
   .screen-form__text-desc {
     font-size: 14px;
   }
+
   .screen-form__input-form-text {
     font-size: 11px;
   }
+
   .screen-form-under__input-form-text {
     font-size: 11px;
   }
+
   .screen-form-under__input-form-sub {
     font-size: 14px;
   }
+
   .screen-form__input-form-sub {
     font-size: 14px;
   }
+
   .style-h1 {
     font-size: 35px;
   }
+
   .header__housevop-title {
     font-size: 32px;
     margin-bottom: 0;
   }
+
   .header__housevop-subtitle {
     font-size: 10px;
     margin-bottom: 0;
   }
+
   .residential-complex__tel-adress {
     min-width: 100%;
   }
+
   .screen-residential-complex {
     height: 500px;
   }
+
   .residential-complex__main-title {
     margin-bottom: 55px;
   }
+
   .residential-complex__search {
     margin-bottom: 115px;
   }
+
   .screen-menu__items-box {
     flex-basis: 75%;
   }
@@ -482,10 +593,12 @@
   .screen-map__title {
     margin-bottom: 40px;
   }
+
   .screen-our-apartments__title {
     margin-bottom: 40px;
   }
 }
+
 @media (max-width: 510px) {
   .screen-menu__items-box {
     flex-basis: 85%;
@@ -496,18 +609,23 @@
   .residential-complex__adress-text-box {
     flex-basis: 60%;
   }
+
   .residential-complex__tel-text-box {
     flex-basis: 42%;
   }
+
   .screen-menu__item-text {
     font-size: 17px;
   }
+
   .screen-menu__item-img-1 {
     max-width: 100%;
   }
+
   .screen-form-under__input-form-sub {
     padding: 7px 30px;
   }
+
   .screen-form__input-form-sub {
     padding: 7px 12px;
   }
@@ -518,45 +636,405 @@
     bottom: 30px;
     left: 20px;
   }
+
   .footer-box {
     max-width: 90%;
   }
+
   .residential-complex__tel-adress {
     flex-direction: column;
     align-items: center;
     min-height: 20%;
   }
+
   .residential-complex__adress-text-box {
     min-width: 65%;
   }
+
   .residential-complex__tel-text-box {
     min-width: 45%;
   }
+
   .residential-complex__search {
     margin-bottom: 90px;
   }
+
   .style-h1 {
     line-height: 50px;
     font-size: 33px;
   }
+
   .residential-complex__main-title {
     margin-bottom: 45px;
   }
+
   .screen-residential-complex {
     margin-bottom: 65px;
   }
+
   .screen-our-apartments__img-item-link-box {
     max-width: 95%;
   }
-  // .figure-link-box {
-  //   margin-left: 1rem;
+
+  .header__housevop-title {
+    font-size: 29px;
+  }
+
+  .header__housevop-subtitle {
+    font-size: 9px;
+  }
+
+  .header__housevop-title-link {
+    margin-bottom: 1%;
+  }
+
+  .header-menu__box.active {
+    min-width: 50%;
+  }
+
+  .header-menu__box {
+    min-width: 50%;
+  }
+
+  .style-h1 {
+    font-size: 30px;
+  }
+
+  .item-img {
+    margin-bottom: 25px;
+  }
+
+  .screen-menu {
+    height: 420px;
+  }
+
+  figure {
+    margin: 10px 6px 6px 10px;
+  }
+
+  .apartments-text {
+    bottom: 20px;
+    left: 25px;
+  }
+
+  .screen-form__input {
+    max-width: 100%;
+  }
+
+  .screen-form-under__input {
+    max-width: 100%;
+  }
+
+  .style-h2 {
+    font-size: 28px;
+  }
+
+  .screen-our-apartments__img {
+    display: none;
+  }
+
+  .screen-form-under {
+    height: 370px;
+  }
+
+  .screen-our-apartments__img-slider {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  div.thumbnail_container {
+    width: 395px;
+    height: 310px;
+  }
+
+  // .thumbnail {
+  //   min-width: 100%;
+  //   min-height: 100%;
   // }
+  img.thumbnail {
+    margin-top: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  .screen-video {
+    height: 430px;
+  }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 430px) {
+  .residential-complex__adress-text-box {
+    min-width: 70%;
+  }
+
+  .residential-complex__tel-text-box {
+    min-width: 50%;
+  }
+
+  .screen-form__input-form::placeholder {
+    font-size: 13px;
+  }
+
+  .screen-form__input-form-sub {
+    font-size: 13px;
+  }
+
+  .screen-form-under__input-form::placeholder {
+    font-size: 13px;
+  }
+
+  .screen-form-under__input-form-sub {
+    font-size: 13px;
+  }
+
+  .footer-list-link {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  .residential-complex__adress-text-box {
+    min-width: 75%;
+  }
+
+  .residential-complex__tel-text-box {
+    min-width: 55%;
+  }
+
+  .header-menu__box {
+    justify-content: center;
+    max-width: 100%;
+    max-height: 70%;
+    min-width: 60%;
+  }
+
+  .header-menu__box.active {
+    justify-content: center;
+    max-width: 100%;
+    max-height: 70%;
+    min-width: 60%;
+  }
+
+  img.mfp-img {
+    max-height: 250px !important;
+  }
+
+  .thumbnail {
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  .footer-list-link {
+    font-size: 12px;
+  }
+
+  .style-h2 {
+    font-size: 27px;
+  }
+
+  .screen-form__text-desc {
+    font-size: 12px;
+  }
+
+  .screen-menu__item-img-1 {
+    max-width: 90%;
+  }
+
+  .slider .slick-dots button {
+    width: 15px;
+    height: 15px;
+  }
+
+  .slider .slick-dots {
+    min-width: 40%;
+  }
+}
+
+@media (max-width: 380px) {
+  .residential-complex__adress-img::after {
+    font-size: 17px;
+  }
+
+  .residential-complex__tel-img::after {
+    font-size: 17px;
+  }
+
+  .header-menu__box.active {
+    min-width: 100%;
+    max-height: 100%;
+  }
+
+  .header-menu__box {
+    min-width: 100%;
+    max-height: 100%;
+  }
+
+  .screen-menu__items-box {
+    display: none;
+  }
+
+  .screen-menu__items-box-slider {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .slider-item-img {
+    margin-bottom: 20px;
+  }
+
+  .screen-form__input-forms-box {
+    column-gap: 10px;
+    grid-template: repeat(2, 0.5fr) / repeat(2, 0.7fr);
+    row-gap: 25px;
+  }
+
+  .screen-our-apartments {
+    height: 400px;
+  }
+
+  .screen-residential-complex {
+    margin-bottom: 0px;
+  }
+
+  .screen-menu {
+    justify-content: center;
+  }
+
+  .screen-form-under__input-forms-box {
+    column-gap: 10px;
+    grid-template: repeat(2, 0.5fr) / repeat(2, 0.5fr);
+  }
+
+  .style-h1 {
+    display: none;
+  }
+
+  .style-h1-min-apdate {
+    display: flex;
+    font-family: PlayfairDisplay;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #d4c17f;
+  }
+
+  .residential-complex__main-title {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .screen-form-under__input-forms-box {
+    column-gap: 10px;
+    grid-template: repeat(4, 0.5fr) / repeat(1, 0.5fr);
+    row-gap: 25px;
+  }
+
+  .under-input-form-3 {
+    grid-row: 4/6;
+  }
+
+  .screen-form {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .screen-form__input-forms-box {
+    justify-content: center;
+  }
+
+  .screen-form__input-forms-box {
+    column-gap: 10px;
+    grid-template: repeat(4, 0.5fr) / repeat(1, 0.5fr);
+    row-gap: 25px;
+  }
+
+  .under-input-form-3 {
+    grid-row: 4/6;
+  }
+
+  .screen-form-under {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .screen-form__input-forms-box {
+    justify-content: center;
+  }
+
+  img.mfp-img {
+    max-height: 230px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .residential-complex__adress-text-box {
+    min-width: 80%;
+  }
+
+  .residential-complex__tel-text-box {
+    min-width: 60%;
+  }
+
+  .header-menu__box-link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 340px) {
+  .residential-complex__adress-text-box {
+    min-width: 85%;
+  }
+}
+
+@media (max-width: 335px) {
+  .screen-form__text-title {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 320px) {
+  .residential-complex__adress-text-box {
+    min-width: 90%;
+  }
+
+  .residential-complex__tel-text-box {
+    min-width: 65%;
+  }
+
+  .slider .slick-dots {
+    min-width: 60%;
+  }
+
+  .slider .slick-dots button {
+    width: 20px;
+    height: 20px;
+  }
+
+  img.mfp-img {
+    max-height: 200px !important;
+  }
+
+  .screen-form__text-title {
+    flex-basis: 100%;
+  }
+
+  img.thumbnail {
+    min-width: 320px;
+    min-height: 220px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .footer-box {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
 @media (max-width: px) {
 }
-// grid-column: 1/2;
-// grid-row: 1/2;

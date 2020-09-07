@@ -59,6 +59,7 @@ const del = require("del");
 function browsersync() {
   browserSync.init({
     proxy: "optimized.dev",
+    // использовалось для отладки
     // server: { baseDir: baseDir + "/" },
     notify: false,
     online: online,

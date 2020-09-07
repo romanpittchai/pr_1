@@ -1,0 +1,11 @@
+Adaptation:
+from 1920px to 320px.
+Feels good at 280px.
+Not adapted and calibrated separately, under device screens. However, it feels good on most of the most common device screen formats.
+It is an implementation of a separate layout, which is freely available on the website https://www.figma.com/.
+
+Note:
+The send.php file created for sending the mail message was not included in those. task and is an additional file created for debugging and checking the operation of the local server. Can be removed or modified. The search bar is the search bar https://www.google.ru/.
+The video uploaded to the site is also taken at https://www.youtube.com/, solely for the purpose of demonstrating performance and familiarization. Subject to change. The map is loaded from the service https://www.google.com/maps, the point marked on the map is arbitrary and can also be changed. All data, such as addresses, phone numbers, logo, were freely available and were part of the layout.
+
+The project was created as an introductory and demonstration, as an addition to the portfolio. It can be completely changed and supplemented.

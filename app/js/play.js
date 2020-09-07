@@ -16,6 +16,12 @@ if (window.matchMedia("(max-width: 767px)").matches) {
 if (window.matchMedia("(max-width: 600px)").matches) {
   (height_player = 360), (width_player = 420);
 }
+if (window.matchMedia("(max-width: 479px)").matches) {
+  (height_player = 310), (width_player = 395);
+}
+if (window.matchMedia("(max-width: 319px)").matches) {
+  (height_player = 220), (width_player = 320);
+}
 onYouTubeIframeAPIReady = function () {
   player = new YT.Player("player", {
     height: height_player,

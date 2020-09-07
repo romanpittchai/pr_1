@@ -1,0 +1,118 @@
+.slick-slider {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slider {
+  max-width: 100%;
+  position: relative;
+}
+
+.slick-list {
+  display: flex;
+  min-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.slick-slide {
+  max-width: 100%;
+  max-height: 90%;
+}
+
+.slick-slide.slick-active {
+  max-width: 100%;
+}
+
+.slider-item {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  min-height: 100%;
+  align-items: center;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 100%;
+  z-index: 7;
+  font-size: 10px;
+}
+
+.slider-item-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slick-dotted {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100%;
+  max-height: 100%;
+}
+
+.slider .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  min-width: 30%;
+}
+
+
+//! Важно
+//** Всё что заперто в рамки этого комментария необходимо для того,
+button:focus {
+  outline: 1px dotted;
+  outline: none;
+}
+
+a:focus {
+  outline: none !important;
+}
+
+img:focus {
+  outline: none !important;
+}
+
+#slick-slide00 {
+  outline: none !important;
+}
+
+//** чтобы на слайдере убрать оранжевую рамку, образующуюся при фокусировке на объекте
+//! Важно
+
+
+
+.slider .slick-dots li {
+  list-style: none;
+  border-bottom: none !important;
+  border: none !important;
+  border-style: none;
+}
+
+.slider .slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  border-bottom: none;
+}
+
+.slider .slick-dots li.slick-active button {
+  border-radius: 50%;
+  border-bottom: none;
+  background-color: #d4c17f;
+  border-style: none;
+}
