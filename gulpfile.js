@@ -1,7 +1,7 @@
 // VARIABLES & PATHS
 
 let preprocessor = "scss", // Preprocessor (sass, scss, less, styl)
-  fileswatch = "html,htm,txt,json,md,woff2", // List of files extensions for watching & hard reload (comma separated)
+  fileswatch = "html,php,js,htm,txt,json,md,woff2", // List of files extensions for watching & hard reload (comma separated)
   imageswatch = "jpg,jpeg,png,webp,svg", // List of images extensions for watching & compression (comma separated)
   baseDir = "app", // Base directory path without «/» at the end
   online = true; // If «false» - Browsersync will work offline without internet connection
@@ -58,7 +58,8 @@ const del = require("del");
 
 function browsersync() {
   browserSync.init({
-    server: { baseDir: baseDir + "/" },
+    proxy: "optimized.dev",
+    // server: { baseDir: baseDir + "/" },
     notify: false,
     online: online,
   });
